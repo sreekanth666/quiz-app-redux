@@ -1,6 +1,7 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
+import { FacebookShareButton, FacebookIcon, WhatsappShareButton, WhatsappIcon } from 'react-share'
 
 function Result() {
     const score = useSelector((state) => state.questionSlice.score)
@@ -37,6 +38,16 @@ function Result() {
                 </div>
 
                 <Link to={'/quiz'} style={{textDecoration:'none'}}><button className='btn btn-primary fw-semibold mt-5 rounded-pill'>Restart the Quiz <i class="fa-solid fa-arrows-rotate"></i></button></Link>
+
+                <div className='mt-5'>
+                    <WhatsappShareButton
+                        url = {'https://www.example.com'}
+                        title = {`Just scored ${score * 5} points in this challenging quiz! 🧠 Think you can beat my score? Test your knowledge and challenge yourself. Play now: `}
+                        className = 'm-2'
+                    >
+                        <WhatsappIcon size={32} round />
+                    </WhatsappShareButton>
+                </div>
         </div>
     )
 }

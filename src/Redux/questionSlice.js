@@ -2,7 +2,7 @@ import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 
 export const fetchQuestions = createAsyncThunk('quizSlice/fetchQuestions', async () => {
-    const response = await axios.get("https://quizapi.io/api/v1/questions?apiKey=YKS00IB8flyN2ittkBBtvucPUjMn88XRQ9IMQFDp&limit=10");
+    const response = await axios.get("./demoQuestions.json");
     return response.data;
 });
 // https://quizapi.io/api/v1/questions?apiKey=YKS00IB8flyN2ittkBBtvucPUjMn88XRQ9IMQFDp&limit=10
