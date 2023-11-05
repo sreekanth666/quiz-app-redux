@@ -2,7 +2,7 @@ import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 
 export const fetchQuestions = createAsyncThunk('quizSlice/fetchQuestions', async () => {
-    const response = await axios.get("./demoQuestions.json");
+    const response = await axios.get("https://quizapi.io/api/v1/questions?apiKey=YKS00IB8flyN2ittkBBtvucPUjMn88XRQ9IMQFDp&limit=10");
     return response.data;
 });
 // https://quizapi.io/api/v1/questions?apiKey=YKS00IB8flyN2ittkBBtvucPUjMn88XRQ9IMQFDp&limit=10
@@ -11,7 +11,7 @@ const questionSlice = createSlice({
     name: "quizSlice",
     initialState: {
         allQuestion: [],
-        finalTimer: "",
+        finalTimer: "0 Seconds",
         questionNumber: 1,
         score: 0,
         loading: "Initial State",
@@ -23,6 +23,9 @@ const questionSlice = createSlice({
         },
         incrementQuestionNumber: (state) => {
             state.questionNumber += 1
+        },
+        setFinalTime: (state, action) => {
+            state.finalTimer = action.payload
         }
     },
     extraReducers: (builder) => {
@@ -43,5 +46,5 @@ const questionSlice = createSlice({
     }
 });
 
-export const { calculateScore, incrementQuestionNumber } = questionSlice.actions;
+export const { calculateScore, incrementQuestionNumber, setFinalTime } = questionSlice.actions;
 export default questionSlice.reducer;
