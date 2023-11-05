@@ -39,14 +39,23 @@ function Result() {
 
                 <Link to={'/quiz'} style={{textDecoration:'none'}}><button className='btn btn-primary fw-semibold mt-5 rounded-pill'>Restart the Quiz <i class="fa-solid fa-arrows-rotate"></i></button></Link>
 
-                <div className='mt-5'>
+                <div className='mt-5 text-center'>
+                    <p className='m-0 fw-semibold'>Share Your Achievement</p>
                     <WhatsappShareButton
-                        url = {'https://www.example.com'}
+                        url = {'https://quiz-app-redux-lime.vercel.app/'}
                         title = {`Just scored ${score * 5} points in this challenging quiz! 🧠 Think you can beat my score? Test your knowledge and challenge yourself. Play now: `}
                         className = 'm-2'
                     >
                         <WhatsappIcon size={32} round />
                     </WhatsappShareButton>
+
+                    <FacebookShareButton
+                        url = {'https://quiz-app-redux-lime.vercel.app/'}
+                        quote = {`Just scored ${score * 5} points in this challenging quiz! 🧠 Think you can beat my score? Test your knowledge and challenge yourself. Play now: `}
+                        className='m-2'
+                    >
+                        <FacebookIcon round size={32} />
+                    </FacebookShareButton>
                 </div>
         </div>
     )
