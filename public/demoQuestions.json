@@ -1,0 +1,322 @@
+[
+    {
+        "id": 1063,
+        "question": "What is service container in Laravel?",
+        "description": null,
+        "answers": {
+            "answer_a": "Service container is a tool used for performing dependency injection in Laravel.",
+            "answer_b": "Dockerized Laravel applications are called service containers.",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "Laravel"
+            }
+        ],
+        "category": "Code",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 979,
+        "question": "How do you create a function in JavaScript?",
+        "description": null,
+        "answers": {
+            "answer_a": "function myFunction()",
+            "answer_b": "function:myFunction()",
+            "answer_c": "function = myFunction()",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "JavaScript"
+            }
+        ],
+        "category": "Code",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 850,
+        "question": "How to remove the docker image with the docker image id mentioned in the command",
+        "description": null,
+        "answers": {
+            "answer_a": "$ docker rmi fce289e99eb9",
+            "answer_b": "$ docker rmi -rf fce289e99eb9",
+            "answer_c": "$ docker rmi rf fce289e99eb9",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "Docker"
+            }
+        ],
+        "category": "Docker",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 526,
+        "question": "When would you use path along with file name of a picture in an IMG tag?",
+        "description": null,
+        "answers": {
+            "answer_a": "path is optional and not necessary",
+            "answer_b": "when image file and html file both are on same location d.",
+            "answer_c": "path is always necessary when inserting image",
+            "answer_d": "when the location of image file and html file are different",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "true",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "HTML"
+            }
+        ],
+        "category": "Code",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 652,
+        "question": "What is the She-bang line in a shell script",
+        "description": null,
+        "answers": {
+            "answer_a": "#",
+            "answer_b": "#!",
+            "answer_c": "!#",
+            "answer_d": "None of the above",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "BASH"
+            }
+        ],
+        "category": "Linux",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 492,
+        "question": "Which of the following tags represents a section of the document intended for navigation in HTML5?",
+        "description": null,
+        "answers": {
+            "answer_a": "footer",
+            "answer_b": "dialog",
+            "answer_c": "section",
+            "answer_d": "nav",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "true",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "HTML"
+            }
+        ],
+        "category": "Code",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 1006,
+        "question": "Which one is true for Minikube?",
+        "description": null,
+        "answers": {
+            "answer_a": "Minikube is an all-in-One Kubernetes cluster on our workstation",
+            "answer_b": "Minikube multi-node cluster",
+            "answer_c": "Minikube is a GUI for Kubernetes",
+            "answer_d": "None of the above",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "Kubernetes"
+            }
+        ],
+        "category": "DevOps",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 866,
+        "question": "How to logout from dockerhub.",
+        "description": null,
+        "answers": {
+            "answer_a": "$ docker exit",
+            "answer_b": "$ docker log-out",
+            "answer_c": "$ docker logout",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "Docker"
+            }
+        ],
+        "category": "Docker",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 437,
+        "question": "What is called if a value shouldn't be greater than 100?",
+        "description": null,
+        "answers": {
+            "answer_a": "Integrity constraint",
+            "answer_b": "Feasible constraint",
+            "answer_c": "Over-defined constraint",
+            "answer_d": "Referential constraint",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "MySQL"
+            }
+        ],
+        "category": "SQL",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 1000,
+        "question": "Kubernetes can be configured in a multi-Master Node configuration. True or False?",
+        "description": null,
+        "answers": {
+            "answer_a": "True",
+            "answer_b": "False",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "Kubernetes"
+            }
+        ],
+        "category": "DevOps",
+        "difficulty": "Easy"
+    }
+]
